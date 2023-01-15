@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.location_img {
+    width: 125px;
+    height: 168px;
+    border-radius: 5px;
+}
+
+.card, .firstLine {
+    display: flex;
+}
+
+.card {
+    margin-top: 1em;
+}
+
+.cardDetails {
+    margin: 1em 2em;;
+}
+
+a {
+    font-family: Inter;
+    font-size: 10px;
+    line-height: 12px;
+    color:#918E9B;
+}
+
+.location {
+    font-family: Inter;
+    font-size: 10px;
+    letter-spacing: 0.17em;
+    margin: 0 5px;
+}
+
+.title {
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;    
+}
+
+.date {
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 12px;
+}
+
+.description {
+    font-family: Inter;
+    font-size: 10px;
+    line-height: 15px;
+}
+
+.card:not(:last-child) {
+    border-bottom: 1px solid #E5E5E5;
+    padding-bottom: 1em;
+}
